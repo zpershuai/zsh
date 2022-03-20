@@ -15,3 +15,6 @@ export PATH=~/.dotfiles/bin/:$PATH
 
 ## autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+## git
+alias git='LANG=en_GB git'
