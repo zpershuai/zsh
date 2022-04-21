@@ -34,3 +34,7 @@ unset __conda_setup
 
 ## git
 alias git='LANG=en_GB git'
+
+[ -f ~/.dotfiles/bin/emacsdaemon.sh ] && source ~/.dotfiles/bin/emacsdaemon.sh
+
+export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
